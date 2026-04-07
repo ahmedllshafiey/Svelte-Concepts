@@ -1,5 +1,6 @@
 <script>
 	import Basics from "../components/Basics.svelte";
+	import Props from "../components/Props.svelte";
 	import Reactivity from "../components/Reactivity.svelte";
 
 </script>
@@ -11,3 +12,8 @@
 
 <!-- Reactivity of Svelte -->
  <Reactivity />
+
+<hr>
+
+<!-- Props of Svelte -->
+ <Props />
