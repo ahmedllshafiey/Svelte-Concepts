@@ -36,7 +36,7 @@
 <h1 style="color: {selected}">Pick a color</h1>
 
 <div>
-    ({#each colors as color(color)}
+    {#each colors as color(color)}
         <button
             style="background-color: {color};"
             aria-label={color}
@@ -45,7 +45,7 @@
         >
             {color}
         </button>
-    {/each})
+    {/each}
 </div>
 
 <button onclick={()=> things.shift()}>
@@ -58,6 +58,8 @@
     {thing.name}
     <br>
 {/each}
+
+<br>
 
 <button onclick={() => promise = roll()}>
 	roll the dice
